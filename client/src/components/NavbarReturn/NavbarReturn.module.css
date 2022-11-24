@@ -1,0 +1,30 @@
+.navBarReturn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #eb544d;
+    margin-bottom: 50px;
+    max-height: 8rem;
+    padding:2.4rem;
+}
+a:link, a:visited, a:hover{  
+    text-decoration:none !important;
+    color: white;
+    font-family:"Rubik", sans-serif;
+    font-size:medium;
+    font-style:unset;
+    }
+
+    .button {
+        background: #ff8c87;
+        
+        border-radius: 3px;
+        height: 39px;
+        width: 80px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }

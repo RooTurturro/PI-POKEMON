@@ -1,0 +1,70 @@
+.fighting{
+    background-color: rgb(253, 107, 151);
+    border-radius: 50%;
+}
+.normal{
+    background-color: rgb(180, 180, 180);
+    border-radius: 50%;
+}
+.flying{
+    background-color: rgb(143, 209, 209);
+    border-radius: 50%;
+}
+.rock{
+    background-color: rgb(216, 209, 172);
+    border-radius: 50%;
+}
+.ground{
+    background-color: rgb(252, 198, 117);
+    border-radius: 50%;
+}
+.poison{
+    background-color: rgb(206, 153, 255);
+    border-radius: 50%;
+}
+.bug{
+    background-color: rgb(91, 216, 91);
+    border-radius: 50%;
+}
+.ghost{
+    background-color: rgb(136, 145, 231);
+    border-radius: 50%;
+}
+.steel{
+    background-color: rgb(184, 184, 184);
+    border-radius: 50%;
+}
+.fire{
+    background-color: rgb(255, 190, 160);
+    border-radius: 50%;
+}
+.water{
+    background-color: rgb(117, 252, 234);
+    border-radius: 50%;
+}
+.grass{
+    background-color: rgb(140, 230, 140);
+    border-radius: 50%;
+}
+.psychic{
+    background-color: rgb(212, 151, 253);
+    border-radius: 50%;
+}
+.ice{
+    background-color: rgb(117, 252, 245);
+    border-radius: 50%;
+}
+.dragon{
+    background-color: rgb(252, 117, 117);
+    border-radius: 50%;
+}
+.dark{
+    background-color: rgb(80, 80, 80);
+    border-radius: 50%;
+}
+.fairy{
+    background-color: rgb(255, 152, 246);
+    border-radius: 50%;
+}
+
+

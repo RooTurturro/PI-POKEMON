@@ -1,0 +1,43 @@
+.input {
+
+    height: 35px;
+    width: 300px;
+    border-radius: 3px;
+    border: #ebe8e8;
+    padding-left: 20px;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .searchButton {
+    background: #ff8c87;
+
+    border-radius: 3px;
+    height: 39px;
+    width: 60px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  
+  .searchButton:hover {
+    background-color: #cc02ff;
+  }
+  
+  .buscar {
+    height: 25px;
+  }

@@ -1,0 +1,305 @@
+.pokeball {
+    height: 200px;
+  }
+  .types {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    font-family: "Rubik", sans-serif;
+    font-size: 1em;
+    color: #66625c;
+  }
+  .types div {
+    color: rgb(83, 82, 82);
+    display: flex;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    width: 5.5rem;
+    height: 2rem;
+    border-radius: 20px;
+  }
+  .poke {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .barra {
+    background-color: #fff;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.33);
+    height: 20px;
+    width: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .attack {
+    height: 100%;
+    background-color: #eb544d;
+    max-width: 100%;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
+  .hp {
+    height: 100%;
+    background-color: #22c02a;
+    max-width: 100%;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
+  .defense {
+    height: 100%;
+    background-color: #f4ea53;
+    max-width: 100%;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
+  .speed {
+    height: 100%;
+    background-color: #33aeaf;
+    max-width: 100%;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+  
+  .filaStat {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #868686;
+  }
+  
+  .number {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #66625c;
+  }
+
+  .wrapper{
+    /* width: 40%; */
+    min-width: 200px;
+    position: relative;
+    transform: relative;
+    left: -11%;
+    top: 0%;
+
+}
+.container{
+  position: relative;
+    width: 100%;
+    padding: 30px 30px 50px;
+    background-color: white;
+    border-radius: 10px;
+    
+} 
+
+
+* {box-sizing:border-box}
+
+.bar {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+
+  .contGral {
+    display: flex;
+    position: relative;
+    top: -41px;
+    justify-content: center;
+    align-items: center;
+    margin: 23px;
+    height: 100%;
+  }
+  
+  .contRed {
+    display: flex;
+    background-color: #eb544d;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+  }
+  
+  .contGris {
+    display: flex;
+    background-color: #f8f7f7;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+  
+  .contIzq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-width: 10px;
+    width: 380px;
+    height: 470px;
+    border-radius: 50px;
+  }
+  
+  .infoBasica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .contDer {
+    display: relatve;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    width: 380px;
+    height: 470px;
+
+  }
+  
+  .image {
+    min-height: 250px;
+    max-width: 250px;
+    position: absolute;
+    /* object-fit: cover; */
+  }
+  
+  .circulo {
+    background-color: rgba(217, 217, 217, 0.582);
+    height: 250px;
+    width: 250px;
+    position: relative;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .name {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #66625c;
+  }
+  
+  .types {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+  }
+  
+  .types div {
+    color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 25px;
+    border-radius: 20px;
+  }
+  
+  .id {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #66625c;
+    max-width: 50%;
+    text-align: center;
+  }
+  
+  .alturaPeso {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    left: -325px;
+    top: 159px;
+    grid-gap: 30px;
+    gap: 26px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .medidas {
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #4e4e4e;
+    gap: 7px;
+    background-color: #fff;
+    box-shadow: inset 0px 0px 4px rgba(255, 2, 2, 0.651);
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #868686;
+  }
+  
+  .navBar {
+    background-color: #eb544d;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+  
+  .buttonHome {
+    cursor: pointer;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .buttons {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-inline: 579px;
+    bottom: 73px;
+    left: 53px;
+  }  
+
+  .button {
+    background: #ff8c87;
+    
+    border-radius: 3px;
+    height: 39px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttonRed {
+    background-color: #eb544d;
+  }
